@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: dimgray;
+      margin: 0px;
+    }
+
+    header {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    nav {
+      background-color: rgba(87, 85, 85, 0.897);
+      padding: 3px;
+      box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.438);
+      border-radius: 8px;
+    }
+
+    nav > a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      margin-right: 30px;
+    }
+
+    nav > a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px 0px;
+      box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.438);
+    }
+
+    article {
+      background-color: lightgrey;
+    }
+
+    article > aside {
+      background-color: rgba(211, 211, 211, 0.671);
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 4px;
+      margin: 0px;
+    }
+
+    footer > p {
+      margin: 0px;
+    }
+
+
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident unde iusto, 
+                libero eos et reiciendis maiores hic ratione repudiandae illum quam aliquam at. 
+                Laboriosam ipsa repudiandae distinctio eum, soluta nisi?</p>
+                <aside>
+                    <p>Artigo escrito por Guilherme Alexandre Turto</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Turto'S</p>
+    </footer>
+</body>
+</html>
