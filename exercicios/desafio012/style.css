@@ -1,1 +1,19 @@
 @charset "UTF-8";
+
+body {
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+#conteudo {
+  background-image: url(imagens/background001.jpg);
+        background-size: 100% 100%;
+
+        position: relative;
+        height: 96vh;
+        padding: 10px;
+}
