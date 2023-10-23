@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercícios de Tabelas</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+      width: 500px;
+      border-collapse: collapse;
+    }
+
+    caption {
+      font-size: 1.3em;
+      font-weight: bolder;
+      padding: 8px;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+
+    col.cnome, col.cidade {
+      background-color: gray;
+    }
+
+  </style>
+</head>
+<body>
+    <h1>Exercícios de Tabela</h1>
+
+    <table>
+      <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">    
+        <col class="cprof">
+      </colgroup>
+      <caption>Cadastro</caption>
+      <tr>
+          <th scope="col">Nome</th>
+          <th scope="col">Sexo</th>
+          <th scope="col">Idade</th>
+          <th scope="col">Profissão</th>
+      </tr>
+      <tr>
+        <td>Laura Lopes</td>
+        <td>F</td>
+        <td>26</td>
+        <td>Vendedora</td>
+      </tr>
+      <tr>
+        <td>Guilherme Turto</td>
+        <td>M</td>
+        <td>30</td>
+        <td>Promotor Lider</td>
+      </tr>
+      <tr>
+        <td>Jessica Thais</td>
+        <td>F</td>
+        <td>32</td>
+        <td>Auxiliar de créche</td>
+      </tr>
+      <tr>
+        <td>Jesse</td>
+        <td>M</td>
+        <td>36</td>
+        <td>Operador de Maquinas</td>
+      </tr>
+      <tr>
+        <td>Matheus Turto</td>
+        <td>M</td>
+        <td>24</td>
+        <td>Operador de Telemarketing</td>
+      </tr>
+      <tr>
+        <td>Rita de Cassia<a/td>
+        <td>F</td>
+        <td>53</td>
+        <td>Operadora de Telemarketing</td>
+      </tr>
+    </table>
+</body>
+</html>
